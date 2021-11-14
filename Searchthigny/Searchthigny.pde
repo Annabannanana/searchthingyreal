@@ -1,17 +1,18 @@
 void setup(){
-  test1();
+
 }
 
+void testRun(){
   String[] search(String[] liste, String text){
     return new String[0];
   }
       
 void test1(){
-  String[] liste = "Paris"
+  String[] byListe = {"Paris", "Budapest", "Skopje", "Rotterdam", "Valencia", "Vancouver", "Amsterdam", "Vienna", "Sydney", "New York City", "London", "Bangkok", "Hong Kong", "Dubai", "Rome", "Istanbul"};
   String[] resultat = search(byListe, "a");
   if (resultat.length == 0){
-    println("success: søgning op et tegn returnerer intet");
+    println("Failure: at søge ét tegn returnerer intet");
   }else{
-     println("success: søgning op et tegn returnerer intet");
+     println("Failure: at søge ét tegn returnerer intet");
   }
 }
